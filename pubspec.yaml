@@ -1,0 +1,23 @@
+name: quran_app
+description: A Quran app with recitation audio and written text.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  http: ^1.2.0
+  just_audio: ^0.9.36
+  shared_preferences: ^2.2.2
+
+flutter:
+  uses-material-design: true
+  # إذا أضفت خط Amiri لاحقاً، أزل التعليق عن السطور التالية
+  # fonts:
+  #   - family: Amiri
+  #     fonts:
+  #       - asset: assets/fonts/Amiri-Regular.ttf
